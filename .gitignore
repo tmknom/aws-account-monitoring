@@ -140,3 +140,13 @@ ENV/
 .ropeproject
 
 
+### https://raw.github.com/github/gitignore/0f88fa75def7ed7d96935b8630793e51953df9b0/Terraform.gitignore
+
+# Compiled files
+*.tfstate
+*.tfstate.backup
+
+# Module directory
+.terraform/
+
+
